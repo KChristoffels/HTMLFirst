@@ -1,0 +1,37 @@
+coloxdsfdazfzfzfzfzfsdfqsfsfsqdfgsdffbody {
+    background-color: powderblue;
+}
+h1 {
+    font-weight: bold ;
+}
+h3 {
+    font-style: italic;
+
+}
+table {
+    border-style: groove;
+    border-width: 15px;
+    border-color: black;
+    background-color: gray;
+}
+th {
+    height: 30px;
+    }
+td {
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+ul.a {
+    list-style-type: disc;
+}
+ul.b{
+    list-style-type: square;
+}
+.burlybackground {
+    background-color: burlywood;
+}
+.croocked {
+    font-style: italic;
+}
