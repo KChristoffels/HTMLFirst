@@ -1,2 +1,5 @@
 # Learning-git-navigation
-First html exercise
+
+E = mc²
+
+[Navigation](https://kchristoffels.github.io/Learning-git-navigation/)
