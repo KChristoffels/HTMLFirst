@@ -12,4 +12,4 @@ Chapter 1 (i.e. html)
 Chapter 2 (i.e. css)
 	- exercise 1 (selectors-properties)
 
-[Exercise index](https://github.com/KChristoffels/Learning-markdown)
+[Exercise index](https://kchristoffels.github.io/Learning-markdown/)
