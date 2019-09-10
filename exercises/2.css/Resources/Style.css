@@ -1,0 +1,90 @@
+
+
+body {
+    font-family: 'Gayathri', sans-serif;
+}
+
+header {
+    color: #d3d3d3;
+    background-image: url("Gothic Background.jpg");
+    height: 130vh;
+}
+.flex-container {
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageborder {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: transform .2s; /* animation */
+
+
+}
+.imageborder:hover > img {
+    transform: scale(1.5);
+    filter: blur(2px);
+    z-index: 0;
+
+}
+.presentage {
+    position: absolute;
+    font-size: 200px;
+    color: white;
+    visibility: hidden;
+}
+.imageborder:hover > .presentage {
+    visibility: visible;
+    z-index: 1;
+}
+table, th, td {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+tr:nth-child(even) {background-color: lightgreen}
+tr:nth-child(even) td:hover {background-color: green}
+tr:nth-child(odd) {background-color: lightgrey}
+tr:nth-child(odd) td:hover {background-color: grey}
+
+td:first-letter {font-weight: bold}
+
+footer {
+    height: 150px;
+    border-left: 2px;
+    border-right: 2px;
+}
+ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul img {
+    width: 400px;
+}
+ul a img:hover {
+    color: red;
+}
+
+
+
+
+
+
