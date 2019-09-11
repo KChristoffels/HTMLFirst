@@ -1,0 +1,76 @@
+
+
+.minesweeper {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    align-items: center;
+    align-content: flex-start;
+    -webkit-box-shadow: -5px -5px 0px 5px rgba(153,156,155,1), 5px 5px 0px 5px rgba(245,250,248,1);
+    -moz-box-shadow: -5px -5px 0px 5px rgba(153,156,155,1), 5px 5px 0px 5px rgba(245,250,248,1);
+    box-shadow: -5px -5px 0px 5px rgba(153,156,155,1), 5px 5px 0px 5px rgba(245,250,248,1);
+
+}
+.minenode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: lightgrey;
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black;
+    overflow: hidden;
+}
+.minenode img {
+    height: 55px;
+    width: 55px;
+}
+.minenode
+.minesweeper div {
+    flex: 0 0 12%;
+}
+.main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.minenode:nth-child(n+48){
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.minenode:nth-child(52){
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black;
+}
+.minenode:nth-child(51){
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black;
+}
+.minenode:nth-child(50){
+    border-bottom: 2px dotted black;
+    border-right: 2px dotted black;
+}
+.numberone {
+    font-size: 40px;
+    color: blue;
+}
+.numbertwo {
+    font-size: 40px;
+    color: green;
+}
+.numberthree {
+    font-size: 40px;
+    color: red;
+}
+.notclickedyet {
+    position: relative;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    -webkit-box-shadow: inset 3px 3px 0px 0px rgba(255,255,255,1), inset -3px -3px 0px 0px rgba(136,138,137,1);
+    -moz-box-shadow: inset 3px 3px 0px 0px rgba(255,255,255,1), inset -3px -3px 0px 0px rgba(136,138,137,1);
+    box-shadow: inset 3px 3px 0px 0px rgba(255,255,255,1), inset -3px -3px 0px 0px rgba(136,138,137,1);
+
+}
