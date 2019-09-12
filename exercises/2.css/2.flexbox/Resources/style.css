@@ -1,4 +1,6 @@
-
+body {
+    background-color: lightgrey;
+}
 
 .minesweeper {
     margin: 0 auto;
@@ -11,7 +13,7 @@
     -webkit-box-shadow: -5px -5px 0px 5px rgba(153,156,155,1), 5px 5px 0px 5px rgba(245,250,248,1);
     -moz-box-shadow: -5px -5px 0px 5px rgba(153,156,155,1), 5px 5px 0px 5px rgba(245,250,248,1);
     box-shadow: -5px -5px 0px 5px rgba(153,156,155,1), 5px 5px 0px 5px rgba(245,250,248,1);
-
+    border-top: red;
 }
 .minenode {
     display: flex;
@@ -34,7 +36,7 @@
 }
 .main {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 .minenode:nth-child(n+48){
