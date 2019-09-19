@@ -436,30 +436,17 @@ hr{
 
 
             /*Kris*/
-            @media only screen and (min-width: 0px) { 
-              .grid1container {
-        display: grid;
-        justify-content: left;
-        align-items: center;
-        flex-direction: column;
-        background-image: url(images/girl-with-toy.png);
-        padding-top: 290px;
-        padding-right:290px;
-        background-size: cover;        
-        }
-             }
-             @media only screen and (min-width: 768px){
+
         .grid1container {
         display: grid;
         justify-content: left;
         align-items: center;
         flex-direction: column;
-        background-image: url(images/ugly.jpg);
+        background-image: url(Resources/images/ugly.jpg);
         padding-top: 290px;
         padding-right: 290px;
         background-size: cover;
         }
-        }        
         .grid1_sec1 {
         padding-top: 200px;
         color: #000;
@@ -488,9 +475,7 @@ hr{
         grid-template-rows: auto auto auto auto auto auto;
         background-color: white;
         }
-        
-        
-        
+
         .grid2_sec1 {
         font: 400 6.25rem/6.25rem "BlenderProBold","Helvetica Neue","Helvetica",Arial,sans-serif;
         color: #33aae7;
@@ -503,6 +488,7 @@ hr{
         grid-column-start: 1;
         grid-column-end: 4;
         padding-top: 30px;
+
         }
         .grid2_sec2 {
         grid-row-start: 2;
@@ -699,6 +685,70 @@ hr{
         align-content: center;
         justify-content: center;
         }
+
+       @media only screen and (max-width: 768px) {
+
+           .img {
+               width: 33%;
+               height: auto;
+           }
+           .grid2container {
+               grid-template-areas:
+                    "grid2_1 grid2_1"
+                    "grid2_3 grid2_4"
+                    "grid2_5 grid2_6"
+                    "grid2_7 grid2_8"
+                    "grid2_9 grid2_10"
+                    "grid2_11 grid2_12"
+                    "grid2_13 .";
+           }
+           .grid2_sec1 {
+                grid-area: grid2_1;
+           }
+           .grid2_sec2 {
+               grid-area: grid2_3;
+           }
+           .grid2_sec3 {
+               grid-area: grid2_4;
+           }
+           .grid2_sec4 {
+               grid-area: grid2_9;
+           }
+           .grid2_sec5 {
+               grid-area: grid2_5;
+           }
+           .grid2_sec6 {
+               grid-area: grid2_6;
+           }
+           .grid2_sec7 {
+               grid-area: grid2_11;
+           }
+           .grid2_sec8 {
+               grid-area: grid2_7;
+           }
+           .grid2_sec9 {
+               grid-area: grid2_8;
+           }
+           .grid2_sec10 {
+               grid-area: grid2_13;
+           }
+           .grid2_sec11 {
+               grid-area: grid2_10;
+           }
+           .grid2_sec11 {
+               grid-area: grid2_12;
+           }
+       }
+       @media only screen and (min-width: 0px) {
+
+       .img {
+           width: 33%;
+           height: auto;
+
+       }
+
+
+       }
     /*Laurens*/
 
         
@@ -1689,10 +1739,10 @@ hr{
 
 
   <div class="logos">
-      <img src="images/icon.facebook.png" alt="face" class="spacemargin">
-      <img src="images/icon.twitter.png" alt="twitter" class="spacemargin">
-      <img src="images/icon.youtube.png" alt="youtube" class="spacemargin">
-      <img src="images/icon.instagram.png" alt="insta" class="spacemargin">
+      <img src="Resources/images/icon.facebook.png" alt="face" class="spacemargin">
+      <img src="Resources/images/icon.twitter.png" alt="twitter" class="spacemargin">
+      <img src="Resources/images/icon.youtube.png" alt="youtube" class="spacemargin">
+      <img src="Resources/images/icon.instagram.png" alt="insta" class="spacemargin">
     </div>
 
 </div>
@@ -1707,9 +1757,9 @@ hr{
 
     <div class="grid2container">
         <div class="grid2_sec1">Product categories</div>
-        <div class="grid2_sec2"><a href""><img src="images/teletubbies.png"></a></div>
-        <div class="grid2_sec3"><a href""><img src="images/draak.png"></a></div>
-        <div class="grid2_sec4"><a href""><img src="images/cat.png"></a></div>
+        <div class="grid2_sec2"><a href""><img src="Resources/images/teletubbies.png"></a></div>
+        <div class="grid2_sec3"><a href""><img src="Resources/images/draak.png"></a></div>
+        <div class="grid2_sec4"><a href""><img src="Resources/images/cat.png"></a></div>
         <div class="grid2_sec5">Fingerlings</div>
         <div class="grid2_sec6">Untamed</div>
         <div class="grid2_sec7">+More</div>
@@ -1732,7 +1782,7 @@ hr{
             <a href="" >Find out more</a>
         </div>
         <div>
-            <img class="grid3_picture" src="images/roboflik.png">
+            <img class="grid3_picture" src="Resources/images/roboflik.png">
         </div>
     </div>
     
@@ -1744,11 +1794,11 @@ hr{
         
         <div class="fp-alive-container">
 
-          <div class="fp-image"><img src="images/alive-cubs.png" alt="Alive cubs pluche"></div>
+          <div class="fp-image"><img src="Resources/images/alive-cubs.png" alt="Alive cubs pluche"></div>
           
-          <div class="fp-logo"><img src="images/alive-logo.svg" alt="Alive logo"></div>
+          <div class="fp-logo"><img src="Resources/images/alive-logo.svg" alt="Alive logo"></div>
           
-          <div class="fp-split"><img src="images/split-line.png" alt="Split line"></div>
+          <div class="fp-split"><img src="Resources/images/split-line.png" alt="Split line"></div>
             
           <div class="fp-text">Playing with your cub is like having a real baby animal to take care of and nurture. Alive Cubs react with
                  baby animal sounds and facial animations when you stroke his head or cradle him in your arms.</div>
@@ -1759,11 +1809,11 @@ hr{
         
         <div class="fp-whats-that-smell-container">
             
-          <div class="fp-image"><img src="images/smell-game.jpg" alt="what's that smell game"></div>
+          <div class="fp-image"><img src="Resources/images/smell-game.jpg" alt="what's that smell game"></div>
           
-          <div class="fp-logo"><img src="images/wts-logo.svg" alt="What's that smell logo"></div>
+          <div class="fp-logo"><img src="Resources/images/wts-logo.svg" alt="What's that smell logo"></div>
           
-          <div class="fp-split"><img src="images/split-line.png" alt="Split line"></div>
+          <div class="fp-split"><img src="Resources/images/split-line.png" alt="Split line"></div>
           
           <div class="fp-text">Coming August 2018: The Party Game That Stinks!
                   What’s That Smell?™ is the hilariously fragrant new scratch
@@ -1776,11 +1826,11 @@ hr{
         
         <div class="fp-baby-shark-container">
           
-          <div class="fp-image"><img src="images/baby-shark-pluche.png" alt="Baby shark pluche"></div>
+          <div class="fp-image"><img src="Resources/images/baby-shark-pluche.png" alt="Baby shark pluche"></div>
             
-          <div class="fp-logo"><img src="images/babyshark-logo.svg" alt="Baby shark logo"></div>
+          <div class="fp-logo"><img src="Resources/images/babyshark-logo.svg" alt="Baby shark logo"></div>
             
-          <div class="fp-split"><img src="images/split-line.png" alt="Split line"></div>
+          <div class="fp-split"><img src="Resources/images/split-line.png" alt="Split line"></div>
             
           <div class="fp-text">Meet the famous Shark Family singing plush dolls, cubes, and dancing doll. You won't be able to cuddle them
                  enough! Have fun stacking the song cubes, cuddling with your favorite song doll, or dancing with the Baby
@@ -1796,15 +1846,15 @@ hr{
       
         <div class="news-top">
           
-          <img src="images/line.heading.left.png" class="top-image" alt="line">
+          <img src="Resources/images/line.heading.left.png" class="top-image" alt="line">
           <H1>NEWS</H1>
-          <img src="images/line.heading.left.png" class="top-image"  alt="line">
+          <img src="Resources/images/line.heading.left.png" class="top-image"  alt="line">
         
         </div>
 
         <div class="news-1">
           
-          <div class=news-img><img src="images/yourfuture.png" alt="image your future"></div>
+          <div class=news-img><img src="Resources/images/yourfuture.png" alt="image your future"></div>
           
           <div class="news-1-text">
           <div class="news-1-text-1">KIDS THESE DAYS GET ALL THE LUCK. (LITERALLY.)</div>
@@ -1818,7 +1868,7 @@ hr{
 
         <div class="news-2">
 
-          <div class="news-img2"><img src="images/narwhals.jpg" alt="narwhal toys"></div>
+          <div class="news-img2"><img src="Resources/images/narwhals.jpg" alt="narwhal toys"></div>
           
           <div class="news-2-text">
           <div class="news-2-text-1">FINGERLINGS NARWHALS COVERED BY PARENTS.COM</div>
@@ -1832,7 +1882,7 @@ hr{
 
         <div class="news-3">
           
-          <div class="news-img3"><img src="images/fortunehands.jpg" alt="fortune toy"></div>
+          <div class="news-img3"><img src="Resources/images/fortunehands.jpg" alt="fortune toy"></div>
     
           <div class="news-3-text">
           <div class="news-3-text-1">LUCKY FORTUNE COVERED BY PARENTS</div>
@@ -1846,7 +1896,7 @@ hr{
 
         <div class="news-4">
           
-          <div class="news-img2"><img src="images/girls.jpg" alt="two girls"></div>
+          <div class="news-img2"><img src="Resources/images/girls.jpg" alt="two girls"></div>
           
           <div class="news-4-text">
           <div class="news-4-text-1">JUSTJORDAN33: FISH BOWL SLIME CHALLENGE WITH FINGERLINGS MINIS</div>          
@@ -1860,7 +1910,7 @@ hr{
 
         <div class="news-5">
           
-          <div class="news-img2"><img src="images/girls2.jpg" alt="two girls 2"></div>
+          <div class="news-img2"><img src="Resources/images/girls2.jpg" alt="two girls 2"></div>
           
           <div class="news-5-text">
           <div class="news-5-text-1">PRINCESS TOYSREVIEW FINDS FINGERLINGS MINIS IN CUPCAKES??!!</div> 
@@ -1890,7 +1940,7 @@ hr{
      
   
     
-  <img src="images/logo.inline.gray.svg" class="logostylegray">
+  <img src="Resources/images/logo.inline.gray.svg" class="logostylegray">
   <div class="shape"><a href="/where-to-buy" class="textstyling">Where To Buy</a></div>
          <div class="foot">
 <ul>
