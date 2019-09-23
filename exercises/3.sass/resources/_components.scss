@@ -1,0 +1,66 @@
+@import "_variables";
+
+.visitorcontainer{
+  display: flex;
+}
+.visitors {
+
+}
+.visitordata {
+  display: flex;
+  flex-direction: column;
+}
+
+.visitordata p {
+  color: white;
+}
+
+.inventory {
+  display: flex;
+  flex-direction: column;
+  img, p {
+    background-color: $darkorangebg;
+  }
+}
+.inventory {
+  img {
+    background-color: darken($darkorangebg, 10%);
+  }
+}
+.mentions {
+  display: flex;
+  flex-direction: column;
+  img, p{
+    background-color: $aquabg;
+  }
+}
+.mentions {
+  img{
+    background-color: darken($aquabg, 10%);
+  }
+}
+.downloads {
+  display: flex;
+  flex-direction: column;
+  img, p{
+    background-color: $chocolatebg;
+  }
+}
+.downloads {
+  img{
+    background-color: darken($chocolatebg, 10%);
+  }
+}
+.directmessages {
+  display: flex;
+  flex-direction: column;
+  img, p{
+    background-color: $lightbluebg;
+  }
+}
+.directmessages {
+  img{
+    background-color: darken($lightbluebg, 10%);
+  }
+}
+

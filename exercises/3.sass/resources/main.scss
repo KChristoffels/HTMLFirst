@@ -1,0 +1,8 @@
+@import "_components";
+@import "_mixins";
+@import "_reset";
+@import "_variables";
+
+.amountnr {
+  font: $amountfont;
+}

@@ -1,0 +1,66 @@
+.visitorcontainer {
+  display: flex;
+}
+
+.visitordata {
+  display: flex;
+  flex-direction: column;
+}
+
+.visitordata p {
+  color: white;
+}
+
+.inventory {
+  display: flex;
+  flex-direction: column;
+}
+.inventory img, .inventory p {
+  background-color: darkorange;
+}
+
+.inventory img {
+  background-color: #cc7000;
+}
+
+.mentions {
+  display: flex;
+  flex-direction: column;
+}
+.mentions img, .mentions p {
+  background-color: aqua;
+}
+
+.mentions img {
+  background-color: #00cccc;
+}
+
+.downloads {
+  display: flex;
+  flex-direction: column;
+}
+.downloads img, .downloads p {
+  background-color: chocolate;
+}
+
+.downloads img {
+  background-color: #a55318;
+}
+
+.directmessages {
+  display: flex;
+  flex-direction: column;
+}
+.directmessages img, .directmessages p {
+  background-color: lightblue;
+}
+
+.directmessages img {
+  background-color: #86c5da;
+}
+
+.amountnr {
+  font: bold, white;
+}
+
+/*# sourceMappingURL=output.css.map */
