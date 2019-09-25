@@ -1,5 +1,14 @@
 .visitorcontainer {
   display: flex;
+  justify-content: right;
+}
+.visitorcontainer * {
+  padding-right: 10px;
+}
+
+visitors img {
+  height: 350px;
+  width: 700px;
 }
 
 .visitordata {
@@ -7,55 +16,65 @@
   flex-direction: column;
 }
 
-.visitordata p {
-  color: white;
+.visitordata > * {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
 }
 
-.inventory {
+.columwrapper {
   display: flex;
   flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
-.inventory img, .inventory p {
-  background-color: darkorange;
+.columwrapper * {
+  margin: 0;
+  padding-top: 5px;
 }
 
-.inventory img {
+.visitordata p {
+  color: white;
+  font-size: 12px;
+}
+
+.visitordata i {
+  height: 100%;
+  width: 33%;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 8px;
+}
+
+.inventory * {
+  background-color: darkorange;
+}
+.inventory i {
   background-color: #cc7000;
 }
 
-.mentions {
-  display: flex;
-  flex-direction: column;
-}
-.mentions img, .mentions p {
+.mentions * {
   background-color: aqua;
 }
-
-.mentions img {
+.mentions i {
   background-color: #00cccc;
 }
 
-.downloads {
-  display: flex;
-  flex-direction: column;
-}
-.downloads img, .downloads p {
+.downloads * {
   background-color: chocolate;
 }
-
-.downloads img {
+.downloads i {
   background-color: #a55318;
 }
 
-.directmessages {
-  display: flex;
-  flex-direction: column;
-}
-.directmessages img, .directmessages p {
+.directmessages * {
   background-color: lightblue;
 }
-
-.directmessages img {
+.directmessages i {
   background-color: #86c5da;
 }
 
