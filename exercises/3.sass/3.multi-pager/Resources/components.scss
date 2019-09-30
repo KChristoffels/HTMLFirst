@@ -3,12 +3,14 @@
 body{
   background-color: darkblue;
 }
+.nickcontainer
 div, a {
   color: darkgrey;
 }
 a{
   padding: 10px;
 }
+
 
 .websitecontainer {
   display: grid;
@@ -131,9 +133,7 @@ li {
 .stfriendlist{
   display: flex;
   flex-direction: column;
-  * {
-    padding: 10px;
-  }
+
 }
 .socialbottom {
   display: flex;
